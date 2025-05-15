@@ -1,41 +1,48 @@
 <html lang="bt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" type="text/css" href="../webapp/css/style.css">
 </head>
+
 <body>
-    <section>
+    <header>
         <h1>Contato</h1>
-        <ul>
-            <li><a href="../webapp/index.html">Home</a></li>
-            <li><a href="../webapp/sobre.html">Sobre</a></li>
-            <li><a href="../webapp/contato.html">Contato</a></li>
-            <li><a href="../webapp/habilidades.html">Habilidades</a></li>
-            <li><a href="../webapp/curriculum.html">Curriculo</a></li>
-        </ul>
+    </header>
+    <section>
 
-        <form name="cadastro" method="get" action="#">
-            <fieldset>
-                <legend>Informações:</legend>
-                <label for="nome">Nome:</label>
-                <input type="text" name="txtname" id="name"><br>
-                <label for="email">E-mail:</label>
-                <input type="email" name="txtemail" id="email"><br>
-                <label for="fone">Telefone:</label>
-                <input type="text" name="txtfone" id="fone"><br>
-                <label for="sexo">Sexo:</label>
-                <input type="radio" id="checkbox" name="masc">
-                <label for="horns">Homem</label>
-                <input type="radio" id="checkbox" name="fem">
-                <label for="horns">Mulher</label><br>
-                <label for="coments">Comentário:</label>
-                <textarea name="txtcomentario" id="comentario"></textarea><br>
-                <button for="botao">OK</button>
-            </fieldset>
+        <nav>
+            <div class="topnav">
 
-        </form>
+                <a href="../webapp/index.html">Home</a>
+                <a href="../webapp/sobre.html">Sobre</a>
+                <a href="../webapp/contato.html">Contato</a>
+                <a href="../webapp/habilidades.html">Habilidades</a>
+                <a href="../webapp/curriculum.html">Curriculo</a>
+            </div>
+        </nav>
+
+        <div class="login-container">
+            <form name="cadastro" method="get" action="#" class="login-form">
+                <fieldset>
+                    <legend>Informações:</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="txtname" id="name"><br>
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="txtemail" id="email"><br>
+                    <label for="fone">Telefone:</label>
+                    <input type="text" name="txtfone" id="fone"><br>
+                    
+                    <button for="botao">OK</button>
+                </fieldset>
+
+            </form>
+        </div>
     </section>
-    
+
 </body>
+<footer>&copy Currículo do Guilherme Reinert. Todos os direitos reservados.</footer>
+
 </html>
